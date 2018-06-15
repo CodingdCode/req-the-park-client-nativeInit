@@ -1,21 +1,66 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator } from 'react-navigation';
 
-export default class App extends React.Component {
+import LoginScreen from './src/Component/LoginScreen';
+// import FetchTestScreen from './src/Component/FetchTestScreen';
+import RegisterScreen from './src/Component/RegisterScreen';
+import ProfileScreen from './src/Component/ProfileScreen';
+
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+
+    }
+  }
+  //   this.loginCheck = this.loginCheck.bind(this)
+  //   this.registerUser = this.registerUser.bind(this)
+  // }
+  //
+  // loginCheck()  {
+  //   alert('loginCheck -- app.js')
+  // }
+  //
+  // registerUser()  {
+  //   alert('registerCheck -- app.js')
+  // }
+
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text>React Native Init</Text>
-      </View>
+        <Stack />
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+// const FullApp = createSwitchNavigator({
+//   preApp: Stack,
+//   current: IndexShow
+// })
+export const Stack = createStackNavigator({
+  LoginScreen: {
+    screen: LoginScreen,
   },
-});
+  RegisterScreen: {
+    screen: RegisterScreen,
+  },
+  // MainPageScreen: {
+  //   screen: FetchTestScreen,
+  // },
+  ProfileScreen: {
+    screen: ProfileScreen
+  },
+})
+// export const IndexShow = createStackNavigator({
+//   FetchTestScreen: {
+//     screen: FetchTestScreen,
+//   },
+//   ProfileScreen: {
+//     screen: ProfileScreen,
+//   },
+// })
+// },
+// {
+//   initialRouteName: LoginScreen,
+//   headerMode: 'none',
