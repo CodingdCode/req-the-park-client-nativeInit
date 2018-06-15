@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 
 import LoginScreen from './src/Component/LoginScreen';
-// import FetchTestScreen from './src/Component/FetchTestScreen';
+import MainPageScreen from './src/Component/MainPageScreen';
 import RegisterScreen from './src/Component/RegisterScreen';
 import ProfileScreen from './src/Component/ProfileScreen';
 
@@ -45,9 +45,9 @@ export const Stack = createStackNavigator({
   RegisterScreen: {
     screen: RegisterScreen,
   },
-  // MainPageScreen: {
-  //   screen: FetchTestScreen,
-  // },
+  MainPageScreen: {
+    screen: MainPageScreen,
+  },
   ProfileScreen: {
     screen: ProfileScreen
   },
