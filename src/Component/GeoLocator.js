@@ -1,45 +1,28 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-import { Permissions, Location, Constants, MapView } from 'expo'
+import { StyleSheet, Text, View } from 'react-native';
+import Mapbox from '@mapbox/react-native-mapbox-gl';
+
+Mapbox.setAccessToken('pk.eyJ1IjoiY2FycmFzY29jIiwiYSI6ImNqanFpejhpNDI3aDAzcG8xcmMydWEwbDgifQ.kc6Q-adpsQFlvCCGSUvOCQ');
 
 
 export default class GeoLocator extends React.Component {
-  state = {
-  location: null,
-  errorMessage: null,
-};
 
-componentWillMount() {
-  this._getLocationAsync();
-}
-
-_getLocationAsync = async () => {
-  let { status } = await Permissions.askAsync(Permissions.LOCATION);
-  if (status !== 'granted') {
-    this.setState({
-      errorMessage: 'Permission to access location was denied',
-    });
+  render()  {
+    return(
+      <View style={styles.container}>
+        <Mapbox.MapView
+            styleURL={Mapbox.StyleURL.Street}
+            zoomLevel={15}
+            centerCoordinate={[11.256, 43.770]}
+            style={styles.container}>
+        </Mapbox.MapView>
+      </View>
+    )
   }
-
-  let location = await Location.getCurrentPositionAsync();
-  this.setState({ location });
-};
-
-render() {
-  let text = 'Waiting..';
-  if (this.state.errorMessage) {
-    text = this.state.errorMessage;
-  } else if (this.state.location) {
-    text = JSON.stringify(this.state.location);
-  }
-
-  console.log(text)
-
-  return (
-    <View>
-      <Text>{text}</Text>
-      {/* <MapView /> //=> Native Map to place destinations */}
-    </View>
-  );
 }
-}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
