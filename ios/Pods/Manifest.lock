@@ -100,6 +100,8 @@ PODS:
   - lottie-ios (2.5.0)
   - React (0.55.4):
     - React/Core (= 0.55.4)
+  - react-native-mapbox-gl (6.1.2-beta2):
+    - React
   - React/ART (0.55.4):
     - React/Core
   - React/Core (0.55.4):
@@ -155,6 +157,8 @@ DEPENDENCIES:
   - ExpoKit/GL (from `http://github.com/expo/expo.git`, tag `ios/2.6.8`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - GoogleMaps
+  - "react-native-mapbox-gl (from `../node_modules/@mapbox/react-native-mapbox-gl`)"
   - React/ART (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
@@ -210,6 +214,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
+  react-native-mapbox-gl:
+    :path: "../node_modules/@mapbox/react-native-mapbox-gl"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -249,8 +255,9 @@ SPEC CHECKSUMS:
   JKBigInteger2: e91672035c42328c48b7dd015b66812ddf40ca9b
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   React: aa2040dbb6f317b95314968021bd2888816e03d5
+  react-native-mapbox-gl: b42480060cdcc515dfa3d8e403fb4dd32466a1b9
   yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
-PODFILE CHECKSUM: 137bec020b17cac22be1f96b35cf486b91b8a3cb
+PODFILE CHECKSUM: e0c4b38f31a52e02bc782fdb11d4d4eb538ba8ae
 
 COCOAPODS: 1.5.3

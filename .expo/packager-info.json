@@ -1,8 +1,8 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19002,
+  "packagerPid": 49947,
+  "expoServerNgrokUrl": "https://mm-sj2.ccarrasco.req-the-park-init-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.mm-sj2.ccarrasco.req-the-park-init-native.exp.direct",
+  "ngrokPid": 49962
 }

@@ -4,6 +4,8 @@ platform :ios, '9.0'
 EXPO_CPP_HEADER_DIR = 'ExpoKit'
 
 target 'req-the-park-init-native' do
+  pod 'GoogleMaps'
+
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
     :tag => "ios/2.6.8",
@@ -46,6 +48,8 @@ target 'req-the-park-init-native' do
     :inhibit_warnings => true
 
 
+  pod 'react-native-mapbox-gl', :path => '../node_modules/@mapbox/react-native-mapbox-gl'
+
   post_install do |installer|
     installer.pods_project.main_group.tab_width = '2';
     installer.pods_project.main_group.indent_width = '2';
@@ -56,7 +60,7 @@ target 'req-the-park-init-native' do
       target.native_target.build_configurations.each do |config|
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'EX_DETACHED=1'
-        
+
         # needed for GoogleMaps 2.x
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= []
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '${PODS_ROOT}/GoogleMaps/Base/Frameworks'

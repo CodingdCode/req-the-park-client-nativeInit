@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView.m \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/Target\ Support\ Files/lottie-ios/lottie-ios-prefix.pch \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView_Compat.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTKeypath.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/MacCompatability/LOTPlatformCompat.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTModels.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTHelpers.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView_Internal.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationCache.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.h \
+  /Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.h
