@@ -10,6 +10,8 @@
 
 @end
 
+#import "GoogleMaps";
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -21,6 +23,8 @@
     _window.rootViewController = _rootViewController;
 
     [_window makeKeyAndVisible];
+
+    [GMSServices provideAPIKey:@"AIzaSyBAHp6b1JaJZ56Ep2jqz9kiJFPIfdl_nLo"];
 
 
     return YES;

@@ -2,7 +2,6 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "dependencies": {
-    "@mapbox/react-native-mapbox-gl": "^6.1.2-beta2",
     "exp": "^55.0.4",
     "exp-cli": "^5.0.0",
     "expo": "^28.0.0",
@@ -12,6 +11,7 @@
     "react": "16.4.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
     "react-native-form-builder": "^1.0.15",
+    "react-native-maps": "0.21.0",
     "react-navigation": "^2.7.0",
     "ws": "^3.3.1"
   }

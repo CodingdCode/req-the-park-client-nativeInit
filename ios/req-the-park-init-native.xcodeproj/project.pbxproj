@@ -5,19 +5,20 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		07C8938385884D7C819EE314 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC80B592D1E49D2B8FDCC78 /* SimpleLineIcons.ttf */; };
 		10EFF7F6951C4E2D9AD653F6 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57C6C0BDA7E74689933F48B8 /* Entypo.ttf */; };
 		24D9129FF0C44DC1BBE9A178 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33944186209F44E5A7A18D6E /* Zocial.ttf */; };
 		24F5101A8443434EB62828E5 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFADFF7F9FB94E7AAEA9D52F /* Feather.ttf */; };
 		3ACC005B1E9D447998261F7D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0EB85CF9FB6462E97A7C724 /* Foundation.ttf */; };
+		4C9EF8E40EC042CFAA705168 /* RCTMapboxGLTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = 649DAFA9923B440FA0CB2FEF /* RCTMapboxGLTests.xctest */; };
 		577BD22980AF4986A3B27A0F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FB713951CC54FE2951B3847 /* Ionicons.ttf */; };
 		59336C0478E74974A90A7409 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 870EEA8040844B0FA24F6820 /* MaterialIcons.ttf */; };
 		5B5F49568E184603B15EA324 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEA4C28E7B504BF6B97089D9 /* Octicons.ttf */; };
 		63BFC6EA822B41809492751B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B09D539B114AB6BE31E2B5 /* FontAwesome.ttf */; };
 		652342DECF65449DADCC42CE /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B3A5FDEAE647CBA78F04DD /* rubicon-icon-font.ttf */; };
 		7054B52389FA403B922B8CAF /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B51F6B87B0E843F89D4C5607 /* Roboto_medium.ttf */; };
+		8C3A1482856B455ABDE54ABA /* libRCTMapboxGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9718A00DEAE94A7C943384B8 /* libRCTMapboxGL.a */; };
 		916202D21ED5479FB621EDE2 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9D62037E34D60BCC4C0A3 /* MaterialCommunityIcons.ttf */; };
 		B501732B1DC01252003445D9 /* EXShell.plist in Resources */ = {isa = PBXBuildFile; fileRef = B501732A1DC01252003445D9 /* EXShell.plist */; };
 		B56386491DB9693800A0598C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56386481DB9693800A0598C /* AppDelegate.m */; };
@@ -40,9 +41,12 @@
 		32D59AB62940412293A14DF3 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		33944186209F44E5A7A18D6E /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		57C6C0BDA7E74689933F48B8 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		649DAFA9923B440FA0CB2FEF /* RCTMapboxGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; name = RCTMapboxGLTests.xctest; path = RCTMapboxGLTests.xctest; sourceTree = "<group>"; };
 		870EEA8040844B0FA24F6820 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		897AA514EB844DE28E0C139D /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		8FB713951CC54FE2951B3847 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		9718A00DEAE94A7C943384B8 /* libRCTMapboxGL.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRCTMapboxGL.a; path = libRCTMapboxGL.a; sourceTree = "<group>"; };
+		A1ECD3E285AA455188B52D64 /* RCTMapboxGL.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTMapboxGL.xcodeproj; path = "../node_modules/react-native-mapbox-gl/ios/RCTMapboxGL.xcodeproj"; sourceTree = "<group>"; };
 		A47FE4D7F70906B7DC8CE39B /* Pods-req-the-park-init-native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-req-the-park-init-native.release.xcconfig"; path = "Pods/Target Support Files/Pods-req-the-park-init-native/Pods-req-the-park-init-native.release.xcconfig"; sourceTree = "<group>"; };
 		A5B3A5FDEAE647CBA78F04DD /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		A5E9D62037E34D60BCC4C0A3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB8117C1BFA0514F79CAF74 /* libPods-req-the-park-init-native.a in Frameworks */,
+				8C3A1482856B455ABDE54ABA /* libRCTMapboxGL.a in Frameworks */,
+				4C9EF8E40EC042CFAA705168 /* RCTMapboxGLTests.xctest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +104,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AFBDB8D8D0F14B25B287F598 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECD3E285AA455188B52D64 /* RCTMapboxGL.xcodeproj */,
+			);
+			name = Libraries;
+			path = "";
+			sourceTree = "<group>";
+		};
 		B56386381DB9693800A0598C = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +121,7 @@
 				5B29BC350A332C58878A9F13 /* Pods */,
 				1A42804E64B7E9E0AB8B6799 /* Frameworks */,
 				D6BFFC005B91484984D3DC4A /* Resources */,
+				AFBDB8D8D0F14B25B287F598 /* Libraries */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,7 +197,6 @@
 				B563863F1DB9693800A0598C /* Resources */,
 				AA38385B7D8D0854176B72FC /* [CP] Copy Pods Resources */,
 				19D233B7204FDD7D0087ED51 /* Bundle Expo Assets */,
-				5060BF8D129060BCA926BE96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,24 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5060BF8D129060BCA926BE96 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-req-the-park-init-native/Pods-req-the-park-init-native-frameworks.sh",
-				"${PODS_ROOT}/../../node_modules/@mapbox/react-native-mapbox-gl/ios/Mapbox.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-req-the-park-init-native/Pods-req-the-park-init-native-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA38385B7D8D0854176B72FC /* [CP] Copy Pods Resources */ = {
@@ -495,6 +492,11 @@
 				DEVELOPMENT_TEAM = C8D8QTF339;
 				INFOPLIST_FILE = "$(SRCROOT)/req-the-park-init-native/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reqThePark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,6 +511,11 @@
 				DEVELOPMENT_TEAM = C8D8QTF339;
 				INFOPLIST_FILE = "$(SRCROOT)/req-the-park-init-native/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reqThePark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

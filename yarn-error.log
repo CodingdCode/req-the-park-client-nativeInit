@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add @mapbox/react-native-mapbox-gl
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js upgrade
 
 PATH: 
   /usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/chris/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -27,6 +27,7 @@ npm manifest:
       "react": "16.4.1",
       "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
       "react-native-form-builder": "^1.0.15",
+      "react-native-maps": "^0.21.0",
       "react-navigation": "^2.7.0",
       "ws": "^3.3.1"
     }
@@ -5481,7 +5482,7 @@ Lockfile:
       prop-types "^15.6.0"
       react-native-iphone-x-helper "^1.0.1"
   
-  react-native-maps@0.21.0:
+  react-native-maps@0.21.0, react-native-maps@^0.21.0:
     version "0.21.0"
     resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.21.0.tgz#005f58e93d7623ad59667e8002101970ddf235c2"
     dependencies:
@@ -7249,4 +7250,4 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/node_modules/@expo/ngrok/node_modules/async'
+  Error: EACCES: permission denied, mkdir '/Users/chris/wdi/unit04/projects/p4-ga/nativeClientInit/req-the-park-init-native/node_modules/loose-envify/node_modules'
