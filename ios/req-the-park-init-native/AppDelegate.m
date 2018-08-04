@@ -10,7 +10,7 @@
 
 @end
 
-#import "GoogleMaps";
+@import GoogleMaps;
 
 @implementation AppDelegate
 
