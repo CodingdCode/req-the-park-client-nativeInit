@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
-const LATITUDE_DELTA = Dimensions.get('window').height;
-const LONGITUDE_DELTA = Dimensions.get('window').width;
-// const ASPECT_RATIO = width / height;
-// const LATITUDE_DELTA = 0.0922;
-// const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-
 export default class GeoLocator extends React.Component {
   constructor(props) {
     super(props);
@@ -63,13 +57,13 @@ export default class GeoLocator extends React.Component {
           this.state.currentRegion
         }
       >
-        {/* <Marker
+        <Marker
           pinColor={'black'}
           coordinate={{
             latitude: 37.78825,
             longitude: -122.4324,
           }}
-        /> */}
+        />
         {/* <Marker
           pinColor={'black'}
           coordinate={{
