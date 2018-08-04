@@ -60,8 +60,8 @@ export default class GeoLocator extends React.Component {
         <Marker
           pinColor={'black'}
           coordinate={{
-            latitude: 37.78825,
-            longitude: -122.4324,
+            latitude: this.state.currentRegion.latitude,
+            longitude: this.state.currentRegion.longitude,
           }}
         />
         {/* <Marker
