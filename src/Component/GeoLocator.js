@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
+// import Geocoder from 'react-native-geocoding';
+//
+// Geocoder.init('../config/config.SUPER_SECRET');
+//
+// Geocoder.from("Colosseum")
+// 		.then(json => {
+// 			var location = json.results[0].geometry.location;
+// 			console.log(location);
+// 		})
+// 		.catch(error => console.warn(error));
 
 export default class GeoLocator extends React.Component {
   constructor(props) {
@@ -64,14 +74,14 @@ export default class GeoLocator extends React.Component {
             longitude: this.state.currentRegion.longitude,
           }}
         />
-        {/* <Marker
+        <Marker
           pinColor={'black'}
           coordinate={{
             latitude: 37.78825,
             longitude: -122.4324,
           }}
         />
-        <Marker
+        {/* <Marker
           pinColor={'black'}
           coordinate={{
             latitude: 37.78825,

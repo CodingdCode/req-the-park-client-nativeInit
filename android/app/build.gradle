@@ -95,6 +95,7 @@ apply from: 'expo.gradle'
 
 
 dependencies {
+    compile project(':react-native-geocoder')
     compile project(':react-native-maps')
     compile project(':react-native-mapbox-gl')
     compile project(':@mapbox/react-native-mapbox-gl')

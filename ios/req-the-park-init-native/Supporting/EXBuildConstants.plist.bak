@@ -14,6 +14,6 @@
 	<key>STANDALONE_CONTEXT_TYPE</key>
 	<string>user</string>
 	<key>developmentUrl</key>
-	<string>exp8b33664086f94a0ab89c44a7f0f783e7://mm-sj2.ccarrasco.req-the-park-init-native.exp.direct:80</string>
+	<string>exp8b33664086f94a0ab89c44a7f0f783e7://192.168.1.2:19002</string>
 </dict>
 </plist>

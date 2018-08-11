@@ -1,8 +1,8 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19002,
-  "packagerPid": 78243,
-  "expoServerNgrokUrl": "https://mm-sj2.ccarrasco.req-the-park-init-native.exp.direct",
-  "packagerNgrokUrl": "https://packager.mm-sj2.ccarrasco.req-the-park-init-native.exp.direct",
-  "ngrokPid": 78260
+  "expoServerPort": 19002,
+  "packagerPort": 19004,
+  "packagerPid": 93998,
+  "expoServerNgrokUrl": "https://9q-u5p.ccarrasco.req-the-park-init-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.9q-u5p.ccarrasco.req-the-park-init-native.exp.direct",
+  "ngrokPid": 94009
 }
